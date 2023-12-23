@@ -1,3 +1,23 @@
-- clean: []
-- link: {}
-- shell: []
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~', '~/.config/kitty']
+
+- link: 
+    ~/.config/kitty/kitty.conf:
+    ~/.config/kitty/diff.conf:
+      path: dracula/kitty/diff.conf
+    ~/.config/kitty/dracula.conf:
+      path: dracula/kitty/dracula.conf
+    ~/.vimrc:
+    ~/.vim_runtime:
+    ~/.vim_runtime/my_configs.vim:
+      path: my_configs.vim
+    ~/.zgen:
+    ~/.zshrc:
+
+- shell: 
+  - git submodule sync --recursive
+  - git submodule update --init --recursive

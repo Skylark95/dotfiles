@@ -2,3 +2,14 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+[submodule "zgen"]
+	path = zgen
+	url = https://github.com/tarjoilija/zgen.git
+	ignore = dirty
+[submodule "vim_runtime"]
+	path = vim_runtime
+	url = https://github.com/amix/vimrc.git
+	ignore = dirty
+[submodule "dracula/kitty"]
+	path = dracula/kitty
+	url = https://github.com/dracula/kitty.git
