@@ -39,6 +39,10 @@ if ! zgen saved; then
   zgen oh-my-zsh plugins/vi-mode
   zgen oh-my-zsh plugins/vscode
 
+  if command -v pacman &> /dev/null; then
+    zgen oh-my-zsh plugins/archlinux
+  fi
+
   # Other plugins
   zgen load paulirish/git-open
   zgen load zsh-users/zsh-syntax-highlighting
