@@ -14,3 +14,19 @@
 	path = dracula/kitty
 	url = https://github.com/dracula/kitty.git
 	ignore = dirty
+[submodule "vim_plugins/tabular"]
+	path = vim_plugins/tabular
+	url = https://github.com/godlygeek/tabular.git
+	ignore = dirty
+[submodule "vim_plugins/vim-log-highlighting"]
+	path = vim_plugins/vim-log-highlighting
+	url = https://github.com/MTDL9/vim-log-highlighting.git
+	ignore = dirty
+[submodule "vim_plugins/vim-ripgrep"]
+	path = vim_plugins/vim-ripgrep
+	url = https://github.com/jremmen/vim-ripgrep.git
+	ignore = dirty
+[submodule "vim_plugins/vim-terraform"]
+	path = vim_plugins/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
+	ignore = dirty

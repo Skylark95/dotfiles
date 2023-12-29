@@ -19,6 +19,7 @@ alias vi="vim"
 
 # Commands Shortcuts
 alias e="$EDITOR"
+alias vi="vim"
 
 # Quick jump to dotfiles
 alias dotfiles="cd $DOTFILES"

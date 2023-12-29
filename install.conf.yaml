@@ -20,6 +20,8 @@
     ~/.vim_runtime:
     ~/.vim_runtime/my_configs.vim:
       path: my_configs.vim
+    ~/.vim_runtime/my_plugins:
+      path: vim_plugins
     ~/.zgen:
     ~/.zshrc:
     ~/.zprofile:
