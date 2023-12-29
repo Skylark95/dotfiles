@@ -15,6 +15,7 @@
     ~/.config/kitty/dracula.conf:
       path: dracula/kitty/dracula.conf
     ~/.gitconfig:
+    ~/.spaceshiprc.zsh:
     ~/.vimrc:
     ~/.vim_runtime:
     ~/.vim_runtime/my_configs.vim:

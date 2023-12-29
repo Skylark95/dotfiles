@@ -13,3 +13,4 @@
 [submodule "dracula/kitty"]
 	path = dracula/kitty
 	url = https://github.com/dracula/kitty.git
+	ignore = dirty

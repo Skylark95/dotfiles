@@ -12,21 +12,26 @@ alias q="~ && clear"
 # Folders Shortcuts
 [ -d ~/Downloads ] && alias dl='cd ~/Downloads'
 [ -d ~/Desktop ]   && alias dt='cd ~/Desktop'
+[ -d ~/git ]       && alias pj='cd ~/git'
 
 # Commands Shortcuts
 alias e="$EDITOR"
 
 # Quick jump to dotfiles
-alias dotfiles="code $DOTFILES"
+alias dotfiles="vim $DOTFILES"
 
 # Quick edit of dotfiles
 alias vimzshrc="vim $DOTFILES/zshrc"
 alias vimalias="vim $DOTFILES/alias"
 alias vimenv="vim $DOTFILES/env"
+alias vimfunctions="vim $DOTFILES/functions"
 
 # Quick reload of zsh environment
 alias reload="source $HOME/.zshrc"
 alias src="source $HOME/.zshrc"
+
+# Show $PATH in readable view
+alias path='echo -e ${PATH//:/\\n}'
 
 # AWS
 alias vimawscreds="vim $HOME/.aws/credentials"
@@ -35,6 +40,7 @@ alias vimawsconfig="vim $HOME/.aws/config"
 # Git
 alias gcdt="git difftool"
 alias gop="git open"
+alias gclg='git log --pretty='%s' $HEAD...$(git_main_branch)'
 
 # Json
 alias json='curl -H "Content-Type: application/json"'

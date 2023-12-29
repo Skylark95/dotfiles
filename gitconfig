@@ -1,8 +1,41 @@
 [pull]
   rebase = true
+[push]
+  autoSetupRemote = true
 [submodule]
   recurse = true
-
+[core]
+  editor = /usr/bin/vim
+	pager = diff-so-fancy | less --tabs=4 -RF
+# diff-so-fancy
+[interactive]
+	diffFilter = diff-so-fancy --patch
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = 11
+	frag = magenta bold
+	func = 146 bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+# kitty
+[diff]
+  tool = kitty
+  guitool = kitty.gui
+[difftool]
+  prompt = false
+  trustExitCode = true
+[difftool "kitty"]
+  cmd = kitten diff $LOCAL $REMOTE
+[difftool "kitty.gui"]
+  cmd = kitten diff $LOCAL $REMOTE
 # Allow local customizations in the .gitconfig_local file
 [include]
 	path = ~/.gitconfig_local

@@ -27,6 +27,8 @@ au BufReadPost .functions_local set syntax=zsh
 au BufReadPost gitconfig set syntax=gitconfig
 au BufReadPost gitconfig_local set syntax=gitconfig
 au BufReadPost .gitconfig_local set syntax=gitconfig
+au BufReadPost zprofile set syntax=zsh
+au BufReadPost .zprofile set syntax=zsh
 
 " Fix background color
 let &t_ut=''
