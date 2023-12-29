@@ -21,7 +21,7 @@ alias vi="vim"
 alias e="$EDITOR"
 
 # Quick jump to dotfiles
-alias dotfiles="vim $DOTFILES"
+alias dotfiles="cd $DOTFILES"
 
 # Quick edit of dotfiles
 alias vimzshrc="vim $DOTFILES/zshrc"
