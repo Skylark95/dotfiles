@@ -21,6 +21,12 @@ alias vi="vim"
 alias e="$EDITOR"
 alias vi="vim"
 
+# pbcopy / pbpaste on linux
+if command -v xclip &> /dev/null; then
+  alias pbcopy='xclip -selection clipboard'
+  alias pbpaste='xclip -selection clipboard -o'
+fi
+
 # Quick jump to dotfiles
 alias dotfiles="cd $DOTFILES"
 
