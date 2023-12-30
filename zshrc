@@ -21,6 +21,9 @@ fi
 
 # if the init script doesn't exist
 if ! zgen saved; then
+  if [[ -f "$HOME/.zgen_before" ]]; then
+    source "$HOME/.zgen_before"
+  fi
   zgen oh-my-zsh
 
   # Oh-My-Zsh plugins
@@ -54,8 +57,16 @@ if ! zgen saved; then
 
   # generate the init script from plugins above
   zgen save
+
+  if [[ -f "$HOME/.zgen_after" ]]; then
+    source "$HOME/.zgen_after"
+  fi
 fi
 
 # spaceship-vi-mode
 eval spaceship_vi_mode_enable
 
+# load zhsrc_local
+if [[ -f "$HOME/.zshrc_local" ]]; then
+  source "$HOME/.zshrc_local"
+fi
