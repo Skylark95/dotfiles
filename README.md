@@ -1,40 +1,65 @@
-Dotfiles Template
-=================
+Dotfiles
+========
 
-This is a template repository for bootstrapping your dotfiles with [Dotbot][dotbot].
+After cloning this repo, run install to automatically set up the development environment. Note that the install script is idempotent: it can safely be run multiple times.
 
-To get started, you can [create a new repository from this template][template]
-(or you can [fork][fork] this repository, if you prefer). You can probably
-delete this README and rename your version to something like just `dotfiles`.
+Dotfiles uses [Dotbot](https://github.com/anishathalye/dotbot) for installation.
 
-In general, you should be using symbolic links for everything, and using git
-submodules whenever possible.
+Applications
+------------
+Dotfiles assumes you have the following applications installed for some aliases / plugins:
 
-To keep submodules at their proper versions, you could include something like
-`git submodule update --init --recursive` in your `install.conf.yaml`.
+* [curl](https://github.com/curl/curl)
+* [fzf](https://github.com/junegunn/fzf)
+* [gitui](https://github.com/extrawurst/gitui)
+* [kitty](https://github.com/kovidgoyal/kitty)
+* [ripgrep](https://github.com/BurntSushi/ripgrep)
+* [terraform](https://github.com/hashicorp/terraform)
+* [vim](https://github.com/vim/vim)
 
-To upgrade your submodules to their latest versions, you could periodically run
-`git submodule update --init --remote`.
+Optional applications that will enable additional aliases if installed:
+
+* [arch linux](https://github.com/archlinux)
+* [xclip](https://github.com/astrand/xclip)
+
+Plugins / Submodules
+--------------------
+Dotfiles uses the following plugins and submodules for different applications:
+
+* `git`: [git-open](https://github.com/paulirish/git-open)
+* `vim`: [tabular](https://github.com/godlygeek/tabular)
+* `vim`: [vim-log-highlighting](https://github.com/MTDL9/vim-log-highlighting)
+* `vim`: [vim-ripgrep](https://github.com/jremmen/vim-ripgrep)
+* `vim`: [vim-terraform](https://github.com/hashivim/vim-terraform)
+* `vim`: [vimrc](https://github.com/amix/vimrc)
+* `zsh`: [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+* `zsh`: [spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt)
+* `zsh`: [spaceship-vi-mode](https://github.com/spaceship-prompt/spaceship-vi-mode)
+* `zsh`: [zgen](https://github.com/tarjoilija/zgen)
+* `zsh`: [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+* `zsh`: [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+
+Making Local Customizations
+---------------------------
+
+You can make local customizations to some programs by editing these files:
+
+* `git`: `~/.gitconfig_local`
+* `kitty`: `~/.config/kitty/local.conf`
+* `sh`: `~/.alias_local`
+* `sh`: `~/.env_local`
+* `sh`: `~/.functions_local`
+* `zgen`: `~/.zgen_before` run before `zgen`
+* `zgen`: `~/.zgen_after` run after `zgen save`
+* `zsh`: `~/.zprofile_local` run after `.zprofile`
+* `zsh`: `~/.zshrc_local` run after `.zshrc`
 
 Inspiration
 -----------
+Project structure, plugins, aliases, etc. took inspiration from the following repositories:
 
-If you're looking for inspiration for how to structure your dotfiles or what
-kinds of things you can include, you could take a look at some repos using
-Dotbot.
-
-* [anishathalye's dotfiles][anishathalye_dotfiles]
-* [csivanich's dotfiles][csivanich_dotfiles]
-* [m45t3r's dotfiles][m45t3r_dotfiles]
-* [alexwh's dotfiles][alexwh_dotfiles]
-* [azd325's dotfiles][azd325_dotfiles]
-* [wazery's dotfiles][wazery_dotfiles]
-* [thirtythreeforty's dotfiles][thirtythreeforty_dotfiles]
-
-And there are about [700 more here][dotbot-users].
-
-If you're using Dotbot and you'd like to include a link to your dotfiles here
-as an inspiration to others, please submit a pull request.
+* [anishathalye's dotfiles](https://github.com/anishathalye/dotfiles)
+* [denysdovhan's dotfiles](https://github.com/denysdovhan/dotfiles)
 
 License
 -------
@@ -42,17 +67,3 @@ License
 This software is hereby released into the public domain. That means you can do
 whatever you want with it without restriction. See `LICENSE.md` for details.
 
-That being said, I would appreciate it if you could maintain a link back to
-Dotbot (or this repository) to help other people discover Dotbot.
-
-[dotbot]: https://github.com/anishathalye/dotbot
-[fork]: https://github.com/anishathalye/dotfiles_template/fork
-[template]: https://github.com/anishathalye/dotfiles_template/generate
-[anishathalye_dotfiles]: https://github.com/anishathalye/dotfiles
-[csivanich_dotfiles]: https://github.com/csivanich/dotfiles
-[m45t3r_dotfiles]: https://github.com/m45t3r/dotfiles
-[alexwh_dotfiles]: https://github.com/alexwh/dotfiles
-[azd325_dotfiles]: https://github.com/Azd325/dotfiles
-[wazery_dotfiles]: https://github.com/wazery/dotfiles
-[thirtythreeforty_dotfiles]: https://github.com/thirtythreeforty/dotfiles
-[dotbot-users]: https://github.com/anishathalye/dotbot/wiki/Users
