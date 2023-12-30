@@ -54,6 +54,8 @@ You can make local customizations to some programs by editing these files:
 * `zsh`: `~/.zprofile_local` run after `.zprofile`
 * `zsh`: `~/.zshrc_local` run after `.zshrc`
 
+See my [dotfiles-local](https://github.com/Skylark95/dotfiles-local) for an example.
+
 Inspiration
 -----------
 Project structure, plugins, aliases, etc. took inspiration from the following repositories:
