@@ -5,9 +5,9 @@ After cloning this repo, run install to automatically set up the development env
 
 Dotfiles uses [Dotbot](https://github.com/anishathalye/dotbot) for installation.
 
-Applications
+Programs
 ------------
-Dotfiles assumes you have the following applications installed for some aliases / plugins:
+Dotfiles assumes you have the following programs installed for some aliases / plugins:
 
 * [curl](https://github.com/curl/curl)
 * [fzf](https://github.com/junegunn/fzf)
@@ -17,14 +17,14 @@ Dotfiles assumes you have the following applications installed for some aliases 
 * [terraform](https://github.com/hashicorp/terraform)
 * [vim](https://github.com/vim/vim)
 
-Optional applications that will enable additional aliases if installed:
+Optional programs that will enable additional aliases if installed:
 
 * [arch linux](https://github.com/archlinux)
 * [xclip](https://github.com/astrand/xclip)
 
 Plugins / Submodules
 --------------------
-Dotfiles uses the following plugins and submodules for different applications:
+Dotfiles uses the following plugins and submodules for different programs:
 
 * `git`: [git-open](https://github.com/paulirish/git-open)
 * `vim`: [tabular](https://github.com/godlygeek/tabular)
