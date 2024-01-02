@@ -52,6 +52,10 @@ alias vimawsconfig="vim $HOME/.aws/config"
 alias gcdt="git difftool"
 alias gop="git open"
 alias gclg='git log --pretty='%s' $HEAD...$(git_main_branch)'
+alias gsur='git submodule update --recursive'
+alias gsuir='git submodule update --init --recursive'
+alias gsy='git submodule sync'
+alias gsyr='git submodule sync --recursive'
 
 # Json
 alias json='curl -H "Content-Type: application/json"'
