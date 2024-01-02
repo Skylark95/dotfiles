@@ -3,7 +3,7 @@
 [push]
   autoSetupRemote = true
 [submodule]
-  recurse = true
+  recurse = false
 [core]
   editor = /usr/bin/vim
 	pager = diff-so-fancy | less --tabs=4 -RF
