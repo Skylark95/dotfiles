@@ -33,6 +33,7 @@ alias dotfiles="cd $DOTFILES"
 # Quick edit of dotfiles
 alias vimzshrc="vim $DOTFILES/zshrc"
 alias vimalias="vim $DOTFILES/alias"
+alias vimec="vim $DOTFILES/editorconfig"
 alias vimenv="vim $DOTFILES/env"
 alias vimfunctions="vim $DOTFILES/functions"
 
