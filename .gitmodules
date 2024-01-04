@@ -30,7 +30,3 @@
 	path = vim_plugins/vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
 	ignore = dirty
-[submodule "vim_plugins/editorconfig-vim"]
-	path = vim_plugins/editorconfig-vim
-	url = https://github.com/editorconfig/editorconfig-vim.git
-	ignore = dirty
