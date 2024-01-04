@@ -15,7 +15,7 @@ Dotfiles assumes you have the following programs installed for some aliases / pl
 * [kitty](https://github.com/kovidgoyal/kitty)
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
 * [terraform](https://github.com/hashicorp/terraform)
-* [vim](https://github.com/vim/vim)
+* [vim](https://github.com/vim/vim) or [neovim](https://github.com/neovim/neovim) (aliased to `vim`)
 
 Optional programs that will enable additional aliases if installed:
 
