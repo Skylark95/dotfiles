@@ -16,6 +16,7 @@
       path: dracula/kitty/diff.conf
     ~/.config/kitty/dracula.conf:
       path: dracula/kitty/dracula.conf
+    ~/.config/nvim:
     ~/.editorconfig:
     ~/.gitconfig:
     ~/.spaceshiprc.zsh:
