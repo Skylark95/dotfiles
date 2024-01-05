@@ -41,6 +41,7 @@ if ! zgen saved; then
   zgen oh-my-zsh plugins/terraform
   zgen oh-my-zsh plugins/vi-mode
   zgen oh-my-zsh plugins/vscode
+  zgen oh-my-zsh plugins/web-search
 
   if command -v pacman &> /dev/null; then
     zgen oh-my-zsh plugins/archlinux
