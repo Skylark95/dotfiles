@@ -20,6 +20,7 @@
     ~/.editorconfig:
     ~/.gitconfig:
     ~/.spaceshiprc.zsh:
+    ~/.tigrc:
     ~/.vimrc:
     ~/.vim_runtime:
     ~/.vim_runtime/my_configs.vim:

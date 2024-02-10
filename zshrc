@@ -39,6 +39,7 @@ if ! zgen saved; then
   zgen oh-my-zsh plugins/pip
   zgen oh-my-zsh plugins/python
   zgen oh-my-zsh plugins/terraform
+  zgen oh-my-zsh plugins/tig
   zgen oh-my-zsh plugins/vi-mode
   zgen oh-my-zsh plugins/vscode
   zgen oh-my-zsh plugins/web-search
