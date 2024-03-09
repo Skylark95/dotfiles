@@ -7,6 +7,7 @@ root = true
 [*]
 end_of_line = lf
 insert_final_newline = true
+trim_trailing_whitespace = true
 
 # 4 space indentation
 [*.py]
@@ -14,6 +15,11 @@ indent_style = space
 indent_size = 4
 
 # 2 space indentation
-[*.js]
+[*.{js,json,md,yaml,yml}]
+indent_style = space
+indent_size = 2
+
+# 2 tab indentation
+[*.java]
 indent_style = space
 indent_size = 2
