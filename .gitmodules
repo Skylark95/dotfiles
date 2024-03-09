@@ -30,3 +30,15 @@
 	path = vim_plugins/vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
 	ignore = dirty
+[submodule "vim_plugins/vim-jsonnet"]
+	path = vim_plugins/vim-jsonnet
+	url = https://github.com/google/vim-jsonnet.git
+	ignore = dirty
+[submodule "vim_plugins/vim-nuuid"]
+	path = vim_plugins/vim-nuuid
+	url = https://github.com/kburdett/vim-nuuid.git
+	ignore = dirty
+[submodule "vim_plugins/xmledit"]
+	path = vim_plugins/xmledit
+	url = https://github.com/sukima/xmledit.git
+	ignore = dirty
