@@ -3,10 +3,18 @@ set shiftwidth=2
 set tabstop=2
 
 " Toggle line numbers
-map <leader>u :set number!
+map <leader>c :set number!
 
 " Disable folds
-set nofoldenable
+" set nofoldenable
+
+" Enable some folds by file type
+au BufReadPost *.json set foldmethod=indent
+au BufReadPost *.yaml set foldmethod=indent
+au BufReadPost *.yml set foldmethod=indent
+
+" ctrlp
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
 " Color Scheme
 colorscheme dracula
