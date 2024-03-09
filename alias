@@ -48,6 +48,9 @@ alias path='echo -e ${PATH//:/\\n}'
 alias vimawscreds="vim $HOME/.aws/credentials"
 alias vimawsconfig="vim $HOME/.aws/config"
 
+# fzf
+alias fzfp="fzf --preview 'bat --color=always {}' --preview-window '~3'"
+
 # Git
 alias gcdt="git difftool"
 alias gop="git open"
