@@ -42,3 +42,7 @@
 	path = vim_plugins/xmledit
 	url = https://github.com/sukima/xmledit.git
 	ignore = dirty
+[submodule "vim_plugins/vim-searchindex"]
+	path = vim_plugins/vim-searchindex
+	url = https://github.com/google/vim-searchindex.git
+	ignore = dirty
