@@ -8,10 +8,18 @@ map <leader>c :set number!
 " Disable folds
 " set nofoldenable
 
+" Open folds by default
+set foldlevelstart=99
+
 " Enable some folds by file type
+au BufReadPost *.java set foldmethod=indent
 au BufReadPost *.json set foldmethod=indent
+au BufReadPost *.js set foldmethod=indent
+au BufReadPost *.ts set foldmethod=indent
+au BufReadPost *.tf set foldmethod=indent
 au BufReadPost *.yaml set foldmethod=indent
 au BufReadPost *.yml set foldmethod=indent
+au BufReadPost kitty.conf set foldmethod=marker
 
 " ctrlp
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
@@ -69,8 +77,4 @@ cnoreabbrev Ack Ack!
 " Remap
 nnoremap <leader>a :Ack!<Space>
 nnoremap <leader>r :!%:p
-
-
-
-
 
