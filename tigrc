@@ -16,3 +16,12 @@ color diff-chunk        magenta default
 color "Reported-by:"    green   default
 # View-specific color
 color tree.date         black   cyan    bold
+
+# local date
+set main-view-date-local = yes
+
+# user-defined command
+bind generic + !git commit --amend
+bind generic 9 @bash -c "echo -n %(commit) | pbcopy"
+bind generic U !git commit --fixup %(commit)
+bind generic b !git rebase -i --autosquash %(commit)
