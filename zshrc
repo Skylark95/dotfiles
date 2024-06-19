@@ -27,11 +27,14 @@ if ! zgenom saved; then
   zgenom ohmyzsh
 
   # Oh-My-Zsh plugins
+  zgenom ohmyzsh plugins/ag
   zgenom ohmyzsh plugins/aliases
   zgenom ohmyzsh plugins/aws
+  zgenom ohmyzsh plugins/colored-man-pages
   zgenom ohmyzsh plugins/copypath
   zgenom ohmyzsh plugins/git
   zgenom ohmyzsh plugins/gitignore
+  zgenom ohmyzsh plugins/fancy-ctrl-z
   zgenom ohmyzsh plugins/fzf
   zgenom ohmyzsh plugins/mvn
   zgenom ohmyzsh plugins/node
@@ -39,6 +42,7 @@ if ! zgenom saved; then
   zgenom ohmyzsh plugins/pip
   zgenom ohmyzsh plugins/python
   zgenom ohmyzsh plugins/pyenv
+  zgenom ohmyzsh plugins/ripgrep
   zgenom ohmyzsh plugins/terraform
   zgenom ohmyzsh plugins/tig
   zgenom ohmyzsh plugins/vi-mode
