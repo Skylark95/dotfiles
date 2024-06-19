@@ -46,3 +46,7 @@
 	path = vim_plugins/vim-searchindex
 	url = https://github.com/google/vim-searchindex.git
 	ignore = dirty
+[submodule "vim_plugins/copilot.vim"]
+	path = vim_plugins/copilot.vim
+	url = https://github.com/github/copilot.vim.git
+	ignore = dirty
