@@ -5,7 +5,7 @@
 
 - clean: ['~', '~/.config', '~/.config/kitty']
 
-- link: 
+- link:
     ~/.alias:
     ~/.env:
     ~/.functions:
@@ -27,10 +27,10 @@
       path: my_configs.vim
     ~/.vim_runtime/my_plugins:
       path: vim_plugins
-    ~/.zgen:
+    ~/.zgenom:
     ~/.zshrc:
     ~/.zprofile:
 
-- shell: 
+- shell:
   - git submodule sync --recursive
   - git submodule update --init --recursive

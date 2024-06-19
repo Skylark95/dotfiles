@@ -1,5 +1,5 @@
-# load zgen
-source "${HOME}/.zgen/zgen.zsh"
+# load zgenom
+source "${HOME}/.zgenom/zgenom.zsh"
 
 # load env
 source "$HOME/.env"
@@ -20,42 +20,42 @@ if [[ -f "$HOME/.functions_local" ]]; then
 fi
 
 # if the init script doesn't exist
-if ! zgen saved; then
+if ! zgenom saved; then
   if [[ -f "$HOME/.zgen_before" ]]; then
     source "$HOME/.zgen_before"
   fi
-  zgen oh-my-zsh
+  zgenom ohmyzsh
 
   # Oh-My-Zsh plugins
-  zgen oh-my-zsh plugins/aliases
-  zgen oh-my-zsh plugins/aws
-  zgen oh-my-zsh plugins/copypath
-  zgen oh-my-zsh plugins/git
-  zgen oh-my-zsh plugins/gitignore
-  zgen oh-my-zsh plugins/fzf
-  zgen oh-my-zsh plugins/mvn
-  zgen oh-my-zsh plugins/node
-  zgen oh-my-zsh plugins/npm
-  zgen oh-my-zsh plugins/pip
-  zgen oh-my-zsh plugins/python
-  zgen oh-my-zsh plugins/pyenv
-  zgen oh-my-zsh plugins/terraform
-  zgen oh-my-zsh plugins/tig
-  zgen oh-my-zsh plugins/vi-mode
-  zgen oh-my-zsh plugins/vscode
-  zgen oh-my-zsh plugins/web-search
+  zgenom ohmyzsh plugins/aliases
+  zgenom ohmyzsh plugins/aws
+  zgenom ohmyzsh plugins/copypath
+  zgenom ohmyzsh plugins/git
+  zgenom ohmyzsh plugins/gitignore
+  zgenom ohmyzsh plugins/fzf
+  zgenom ohmyzsh plugins/mvn
+  zgenom ohmyzsh plugins/node
+  zgenom ohmyzsh plugins/npm
+  zgenom ohmyzsh plugins/pip
+  zgenom ohmyzsh plugins/python
+  zgenom ohmyzsh plugins/pyenv
+  zgenom ohmyzsh plugins/terraform
+  zgenom ohmyzsh plugins/tig
+  zgenom ohmyzsh plugins/vi-mode
+  zgenom ohmyzsh plugins/vscode
+  zgenom ohmyzsh plugins/web-search
 
   # Other plugins
-  zgen load paulirish/git-open
-  zgen load zsh-users/zsh-syntax-highlighting
-  zgen load zsh-users/zsh-autosuggestions
+  zgenom load paulirish/git-open
+  zgenom load zsh-users/zsh-syntax-highlighting
+  zgenom load zsh-users/zsh-autosuggestions
 
   # Spaceship Prompt
-  zgen load spaceship-prompt/spaceship-vi-mode spaceship-vi-mode.plugin.zsh main
-  zgen load spaceship-prompt/spaceship-prompt spaceship
+  zgenom load spaceship-prompt/spaceship-vi-mode spaceship-vi-mode.plugin.zsh main
+  zgenom load spaceship-prompt/spaceship-prompt spaceship
 
   # generate the init script from plugins above
-  zgen save
+  zgenom save
 
   if [[ -f "$HOME/.zgen_after" ]]; then
     source "$HOME/.zgen_after"
