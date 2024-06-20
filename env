@@ -1,6 +1,7 @@
 # shell
 export DOTFILES="$HOME/.dotfiles"
 export EDITOR="/usr/bin/vim"
+export PYTHON_VENV_NAME=".venv"
 
 # ack
 export LC_CTYPE=en_US.UTF-8
