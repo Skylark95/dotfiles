@@ -53,6 +53,7 @@ if ! zgenom saved; then
   zgenom load paulirish/git-open
   zgenom load zsh-users/zsh-syntax-highlighting
   zgenom load zsh-users/zsh-autosuggestions
+  zgenom load so-fancy/diff-so-fancy
 
   # Spaceship Prompt
   zgenom load spaceship-prompt/spaceship-vi-mode spaceship-vi-mode.plugin.zsh main
