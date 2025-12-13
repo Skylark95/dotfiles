@@ -27,7 +27,6 @@ if ! zgenom saved; then
   zgenom ohmyzsh
 
   # Oh-My-Zsh plugins
-  zgenom ohmyzsh plugins/ag
   zgenom ohmyzsh plugins/aliases
   zgenom ohmyzsh plugins/aws
   zgenom ohmyzsh plugins/colored-man-pages
@@ -42,7 +41,6 @@ if ! zgenom saved; then
   zgenom ohmyzsh plugins/pip
   zgenom ohmyzsh plugins/python
   zgenom ohmyzsh plugins/pyenv
-  zgenom ohmyzsh plugins/ripgrep
   zgenom ohmyzsh plugins/terraform
   zgenom ohmyzsh plugins/tig
   zgenom ohmyzsh plugins/vi-mode
