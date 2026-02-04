@@ -10,16 +10,21 @@ Programs
 Dotfiles assumes you have the following programs installed for some aliases / plugins:
 
 * [curl](https://github.com/curl/curl)
+* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 * [fzf](https://github.com/junegunn/fzf)
 * [gitui](https://github.com/extrawurst/gitui)
 * [kitty](https://github.com/kovidgoyal/kitty)
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
 * [terraform](https://github.com/hashicorp/terraform)
+* [tig](https://github.com/jonas/tig)
 * [vim](https://github.com/vim/vim) or [neovim](https://github.com/neovim/neovim) (aliased to `vim`)
 
 Optional programs that will enable additional aliases if installed:
 
 * [arch linux](https://github.com/archlinux)
+* [jsonnet](https://github.com/google/jsonnet)
+* [node](https://github.com/nodejs/node) / [npm](https://github.com/npm/cli)
+* [pyenv](https://github.com/pyenv/pyenv)
 * [xclip](https://github.com/astrand/xclip)
 
 Plugins / Submodules
@@ -27,15 +32,22 @@ Plugins / Submodules
 Dotfiles uses the following plugins and submodules for different programs:
 
 * `git`: [git-open](https://github.com/paulirish/git-open)
+* `kitty`: [dracula](https://github.com/dracula/kitty)
+* `vim`: [copilot.vim](https://github.com/github/copilot.vim)
 * `vim`: [tabular](https://github.com/godlygeek/tabular)
+* `vim`: [vim-jsonnet](https://github.com/google/vim-jsonnet)
 * `vim`: [vim-log-highlighting](https://github.com/MTDL9/vim-log-highlighting)
+* `vim`: [vim-nuuid](https://github.com/kburdett/vim-nuuid)
 * `vim`: [vim-ripgrep](https://github.com/jremmen/vim-ripgrep)
+* `vim`: [vim-searchindex](https://github.com/google/vim-searchindex)
 * `vim`: [vim-terraform](https://github.com/hashivim/vim-terraform)
 * `vim`: [vimrc](https://github.com/amix/vimrc)
+* `vim`: [xmledit](https://github.com/sukima/xmledit)
+* `zsh`: [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 * `zsh`: [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 * `zsh`: [spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt)
 * `zsh`: [spaceship-vi-mode](https://github.com/spaceship-prompt/spaceship-vi-mode)
-* `zsh`: [zgen](https://github.com/tarjoilija/zgen)
+* `zsh`: [zgenom](https://github.com/jandamm/zgenom)
 * `zsh`: [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 * `zsh`: [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
@@ -49,8 +61,8 @@ You can make local customizations to some programs by editing these files:
 * `sh`: `~/.alias_local`
 * `sh`: `~/.env_local`
 * `sh`: `~/.functions_local`
-* `zgen`: `~/.zgen_before` run before `zgen`
-* `zgen`: `~/.zgen_after` run after `zgen save`
+* `zsh`: `~/.zgen_before` run before `zgenom`
+* `zsh`: `~/.zgen_after` run after `zgenom save`
 * `zsh`: `~/.zprofile_local` run after `.zprofile`
 * `zsh`: `~/.zshrc_local` run after `.zshrc`
 
