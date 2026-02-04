@@ -21,6 +21,7 @@
     ~/.gitconfig:
     ~/.spaceshiprc.zsh:
     ~/.tigrc:
+    ~/.tmux.conf: tmux.conf
     ~/.vimrc:
     ~/.vim_runtime:
     ~/.vim_runtime/my_configs.vim:
