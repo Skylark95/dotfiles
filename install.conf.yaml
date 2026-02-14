@@ -3,6 +3,10 @@
       create: true
       relink: true
 
+- shell:
+  - git submodule sync --recursive
+  - git submodule update --init --recursive
+
 - clean: ['~', '~/.config', '~/.config/kitty']
 
 - link:
@@ -10,7 +14,6 @@
     ~/.env:
     ~/.functions:
     ~/.config/gitui:
-    ~/.config/kitty/kitty.conf:
     ~/.config/kitty/kitty.conf:
     ~/.config/kitty/diff.conf:
       path: dracula/kitty/diff.conf
@@ -21,7 +24,7 @@
     ~/.gitconfig:
     ~/.spaceshiprc.zsh:
     ~/.tigrc:
-    ~/.tmux.conf: tmux.conf
+    ~/.tmux.conf:
     ~/.vimrc:
     ~/.vim_runtime:
     ~/.vim_runtime/my_configs.vim:
@@ -31,7 +34,3 @@
     ~/.zgenom:
     ~/.zshrc:
     ~/.zprofile:
-
-- shell:
-  - git submodule sync --recursive
-  - git submodule update --init --recursive
