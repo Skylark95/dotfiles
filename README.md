@@ -17,13 +17,17 @@ Dotfiles assumes you have the following programs installed for some aliases / pl
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
 * [terraform](https://github.com/hashicorp/terraform)
 * [tig](https://github.com/jonas/tig)
-* [vim](https://github.com/vim/vim) or [neovim](https://github.com/neovim/neovim) (aliased to `vim`)
+* [tmux](https://github.com/tmux/tmux)
+* [vim](https://github.com/vim/vim) (aliased as `vi`)
 
 Optional programs that will enable additional aliases if installed:
 
-* [arch linux](https://github.com/archlinux)
+* [aws-cli](https://github.com/aws/aws-cli)
+* [bun](https://github.com/ovh/bun)
 * [jsonnet](https://github.com/google/jsonnet)
+* [maven](https://github.com/apache/maven)
 * [node](https://github.com/nodejs/node) / [npm](https://github.com/npm/cli)
+* [pnpm](https://github.com/pnpm/pnpm)
 * [pyenv](https://github.com/pyenv/pyenv)
 * [xclip](https://github.com/astrand/xclip)
 
@@ -47,6 +51,7 @@ Dotfiles uses the following plugins and submodules for different programs:
 * `zsh`: [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 * `zsh`: [spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt)
 * `zsh`: [spaceship-vi-mode](https://github.com/spaceship-prompt/spaceship-vi-mode)
+* `zsh`: [vscode](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vscode)
 * `zsh`: [zgenom](https://github.com/jandamm/zgenom)
 * `zsh`: [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 * `zsh`: [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)

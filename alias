@@ -77,7 +77,7 @@ alias mvnv='mvn help:evaluate -Dexpression=project.version'
 alias mvnvq='mvn help:evaluate -Dexpression=project.version -q -DforceStdout'
 
 # Python
-pip='pip3'
+alias pip='pip3'
 
 # Terraform
 alias tfwd="terraform workspace delete"
