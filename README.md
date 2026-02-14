@@ -18,7 +18,7 @@ Dotfiles assumes you have the following programs installed for some aliases / pl
 * [terraform](https://github.com/hashicorp/terraform)
 * [tig](https://github.com/jonas/tig)
 * [tmux](https://github.com/tmux/tmux)
-* [vim](https://github.com/vim/vim) (aliased as `vi`)
+* [vim](https://github.com/vim/vim) or [neovim](https://github.com/neovim/neovim) (aliased as `vi`)
 
 Optional programs that will enable additional aliases if installed:
 
