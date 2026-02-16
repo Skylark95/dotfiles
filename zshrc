@@ -72,3 +72,9 @@ eval spaceship_vi_mode_enable
 if [[ -f "$HOME/.zshrc_local" ]]; then
   source "$HOME/.zshrc_local"
 fi
+
+# load completions
+source "$HOME/.completions"
+if [[ -f "$HOME/.completions_local" ]]; then
+  source "$HOME/.completions_local"
+fi

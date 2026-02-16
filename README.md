@@ -64,6 +64,7 @@ You can make local customizations to some programs by editing these files:
 * `git`: `~/.gitconfig_local`
 * `kitty`: `~/.config/kitty/local.conf`
 * `sh`: `~/.alias_local`
+* `sh`: `~/.completions_local`
 * `sh`: `~/.env_local`
 * `sh`: `~/.functions_local`
 * `zsh`: `~/.zgen_before` run before `zgenom`

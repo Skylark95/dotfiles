@@ -11,6 +11,7 @@
 
 - link:
     ~/.alias:
+    ~/.completions:
     ~/.env:
     ~/.functions:
     ~/.config/gitui:
