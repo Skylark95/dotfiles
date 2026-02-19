@@ -74,6 +74,11 @@ You can make local customizations to some programs by editing these files:
 
 See my [dotfiles-local](https://github.com/Skylark95/dotfiles-local) for an example.
 
+### Workflow
+
+* **`tmux` + VS Code**: This project is optimized for a persistent workflow. You can run `tmux` inside VS Code to keep processes alive across sessions. See [docs/tmux-vscode.md](docs/tmux-vscode.md) for setup and tips.
+* **`vs` Alias**: Use the `vs` alias to quickly open files in VS Code from your terminal (e.g., `vs .` or `vs filename`).
+
 Inspiration
 -----------
 Project structure, plugins, aliases, etc. took inspiration from the following repositories:
