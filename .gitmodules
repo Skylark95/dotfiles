@@ -50,3 +50,6 @@
 	path = vim_plugins/copilot.vim
 	url = https://github.com/github/copilot.vim.git
 	ignore = dirty
+[submodule "tmux_plugins/tpm"]
+	path = tmux_plugins/tpm
+	url = https://github.com/tmux-plugins/tpm

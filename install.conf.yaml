@@ -26,6 +26,8 @@
     ~/.spaceshiprc.zsh:
     ~/.tigrc:
     ~/.tmux.conf:
+    ~/.tmux/plugins/tpm:
+      path: tmux_plugins/tpm
     ~/.vimrc:
     ~/.vim_runtime:
     ~/.vim_runtime/my_configs.vim:

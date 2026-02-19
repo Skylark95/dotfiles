@@ -24,6 +24,11 @@ if ! zgenom saved; then
   if [[ -f "$HOME/.zgen_before" ]]; then
     source "$HOME/.zgen_before"
   fi
+
+  # Tmux plugin configuration
+  zstyle ':omz:plugins:tmux' auto-start yes
+  zstyle ':omz:plugins:tmux' auto-attach yes
+
   zgenom ohmyzsh
 
   # Oh-My-Zsh plugins
@@ -43,6 +48,7 @@ if ! zgenom saved; then
   zgenom ohmyzsh plugins/pyenv
   zgenom ohmyzsh plugins/terraform
   zgenom ohmyzsh plugins/tig
+  zgenom ohmyzsh plugins/tmux
   zgenom ohmyzsh plugins/vi-mode
   zgenom ohmyzsh plugins/vscode
   zgenom ohmyzsh plugins/web-search
