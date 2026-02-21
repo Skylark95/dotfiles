@@ -23,12 +23,14 @@ Dotfiles assumes you have the following programs installed for some aliases / pl
 Optional programs that will enable additional aliases if installed:
 
 * [aws-cli](https://github.com/aws/aws-cli)
-* [bun](https://github.com/ovh/bun)
+* [bat](https://github.com/sharkdp/bat)
+* [bun](https://github.com/oven-sh/bun)
 * [jsonnet](https://github.com/google/jsonnet)
 * [maven](https://github.com/apache/maven)
 * [node](https://github.com/nodejs/node) / [npm](https://github.com/npm/cli)
 * [pnpm](https://github.com/pnpm/pnpm)
 * [pyenv](https://github.com/pyenv/pyenv)
+* [python](https://github.com/python/cpython) / [pip](https://github.com/pypa/pip)
 * [xclip](https://github.com/astrand/xclip)
 
 Plugins / Submodules
@@ -37,6 +39,8 @@ Dotfiles uses the following plugins and submodules for different programs:
 
 * `git`: [git-open](https://github.com/paulirish/git-open)
 * `kitty`: [dracula](https://github.com/dracula/kitty)
+* `tmux`: [oh-my-tmux](https://github.com/gpakosz/.tmux)
+* `tmux`: [tpm](https://github.com/tmux-plugins/tpm)
 * `vim`: [copilot.vim](https://github.com/github/copilot.vim)
 * `vim`: [tabular](https://github.com/godlygeek/tabular)
 * `vim`: [vim-jsonnet](https://github.com/google/vim-jsonnet)
@@ -67,6 +71,8 @@ You can make local customizations to some programs by editing these files:
 * `sh`: `~/.completions_local`
 * `sh`: `~/.env_local`
 * `sh`: `~/.functions_local`
+* `tmux`: `~/.tmux.conf.local`
+* `vim`: `~/.vim_runtime/my_configs.vim`
 * `zsh`: `~/.zgen_before` run before `zgenom`
 * `zsh`: `~/.zgen_after` run after `zgenom save`
 * `zsh`: `~/.zprofile_local` run after `.zprofile`
@@ -76,7 +82,6 @@ See my [dotfiles-local](https://github.com/Skylark95/dotfiles-local) for an exam
 
 ### Workflow
 
-* **`tmux` + VS Code**: This project is optimized for a persistent workflow. You can run `tmux` inside VS Code to keep processes alive across sessions. See [docs/tmux-vscode.md](docs/tmux-vscode.md) for setup and tips.
 * **`vs` Alias**: Use the `vs` alias to quickly open files in VS Code from your terminal (e.g., `vs .` or `vs filename`).
 
 Inspiration
