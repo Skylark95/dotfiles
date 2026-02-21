@@ -7,7 +7,7 @@
   - git submodule sync --recursive
   - git submodule update --init --recursive
 
-- clean: ['~', '~/.config', '~/.config/kitty']
+- clean: ['~', '~/.config']
 
 - link:
     ~/.alias:
@@ -15,11 +15,6 @@
     ~/.env:
     ~/.functions:
     ~/.config/gitui:
-    ~/.config/kitty/kitty.conf:
-    ~/.config/kitty/diff.conf:
-      path: dracula/kitty/diff.conf
-    ~/.config/kitty/dracula.conf:
-      path: dracula/kitty/dracula.conf
     ~/.config/nvim:
     ~/.editorconfig:
     ~/.gitconfig:

@@ -13,7 +13,6 @@ Dotfiles assumes you have the following programs installed for some aliases / pl
 * [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 * [fzf](https://github.com/junegunn/fzf)
 * [gitui](https://github.com/extrawurst/gitui)
-* [kitty](https://github.com/kovidgoyal/kitty)
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
 * [terraform](https://github.com/hashicorp/terraform)
 * [tig](https://github.com/jonas/tig)
@@ -38,7 +37,6 @@ Plugins / Submodules
 Dotfiles uses the following plugins and submodules for different programs:
 
 * `git`: [git-open](https://github.com/paulirish/git-open)
-* `kitty`: [dracula](https://github.com/dracula/kitty)
 * `tmux`: [oh-my-tmux](https://github.com/gpakosz/.tmux)
 * `tmux`: [tpm](https://github.com/tmux-plugins/tpm)
 * `vim`: [copilot.vim](https://github.com/github/copilot.vim)
@@ -66,7 +64,6 @@ Making Local Customizations
 You can make local customizations to some programs by editing these files:
 
 * `git`: `~/.gitconfig_local`
-* `kitty`: `~/.config/kitty/local.conf`
 * `sh`: `~/.alias_local`
 * `sh`: `~/.completions_local`
 * `sh`: `~/.env_local`

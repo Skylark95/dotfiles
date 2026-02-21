@@ -10,10 +10,6 @@
 	path = vim_runtime
 	url = https://github.com/amix/vimrc.git
 	ignore = dirty
-[submodule "dracula/kitty"]
-	path = dracula/kitty
-	url = https://github.com/dracula/kitty.git
-	ignore = dirty
 [submodule "vim_plugins/tabular"]
 	path = vim_plugins/tabular
 	url = https://github.com/godlygeek/tabular.git

@@ -64,13 +64,6 @@ alias gsyr='git submodule sync --recursive'
 alias json='curl -H "Content-Type: application/json"'
 alias jsonapi='curl -H "Content-Type: application/vnd.api+json"'
 
-# Kitty
-alias d="kitty +kitten diff"
-alias s="kitty +kitten ssh"
-alias hg="kitty +kitten hyperlinked_grep"
-alias la="ls -A --hyperlink=auto"
-alias ls="ls -CF --hyperlink=auto"
-
 # Maven
 alias mvndoc='mvn -B clean javadoc:javadoc -Ddoclint=none'
 alias mvnv='mvn help:evaluate -Dexpression=project.version'
