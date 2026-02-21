@@ -53,3 +53,6 @@
 [submodule "tmux_plugins/tpm"]
 	path = tmux_plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
+[submodule "tmux_plugins/oh-my-tmux"]
+	path = tmux_plugins/oh-my-tmux
+	url = https://github.com/gpakosz/.tmux.git
