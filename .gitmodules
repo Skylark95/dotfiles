@@ -42,13 +42,11 @@
 	path = vim_plugins/vim-searchindex
 	url = https://github.com/google/vim-searchindex.git
 	ignore = dirty
-[submodule "vim_plugins/copilot.vim"]
-	path = vim_plugins/copilot.vim
-	url = https://github.com/github/copilot.vim.git
-	ignore = dirty
 [submodule "tmux_plugins/tpm"]
 	path = tmux_plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
+	ignore = dirty
 [submodule "tmux_plugins/oh-my-tmux"]
 	path = tmux_plugins/oh-my-tmux
 	url = https://github.com/gpakosz/.tmux.git
+	ignore = dirty
