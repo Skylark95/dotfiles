@@ -84,3 +84,6 @@ source "$HOME/.completions"
 if [[ -f "$HOME/.completions_local" ]]; then
   source "$HOME/.completions_local"
 fi
+
+# bun completions
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
