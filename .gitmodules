@@ -8,7 +8,7 @@
 	ignore = dirty
 [submodule "vim_runtime"]
 	path = vim_runtime
-	url = https://github.com/amix/vimrc.git
+	url = https://github.com/Skylark95/vimrc.git
 	ignore = dirty
 [submodule "vim_plugins/vim-log-highlighting"]
 	path = vim_plugins/vim-log-highlighting
