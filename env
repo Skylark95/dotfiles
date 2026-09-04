@@ -1,6 +1,6 @@
 # shell
 export DOTFILES="$HOME/.dotfiles"
-export EDITOR="/usr/bin/vim"
+export EDITOR="/usr/bin/nvim"
 export PYTHON_VENV_NAME=".venv"
 
 # ack

@@ -14,10 +14,11 @@ Dotfiles assumes you have the following programs installed for some aliases / pl
 * [fzf](https://github.com/junegunn/fzf)
 * [gitui](https://github.com/extrawurst/gitui)
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
-* [terraform](https://github.com/hashicorp/terraform)
+* [opentofu](https://github.com/opentofu/opentofu)
 * [tig](https://github.com/jonas/tig)
 * [tmux](https://github.com/tmux/tmux)
 * [vim](https://github.com/vim/vim) or [neovim](https://github.com/neovim/neovim) (aliased as `vi`)
+* [zsh](https://www.zsh.org/)
 
 Optional programs that will enable additional aliases if installed:
 
@@ -28,7 +29,6 @@ Optional programs that will enable additional aliases if installed:
 * [maven](https://github.com/apache/maven)
 * [node](https://github.com/nodejs/node) / [npm](https://github.com/npm/cli)
 * [pnpm](https://github.com/pnpm/pnpm)
-* [pyenv](https://github.com/pyenv/pyenv)
 * [python](https://github.com/python/cpython) / [pip](https://github.com/pypa/pip)
 * [xclip](https://github.com/astrand/xclip)
 

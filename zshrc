@@ -45,8 +45,7 @@ if ! zgenom saved; then
   zgenom ohmyzsh plugins/npm
   zgenom ohmyzsh plugins/pip
   zgenom ohmyzsh plugins/python
-  zgenom ohmyzsh plugins/pyenv
-  zgenom ohmyzsh plugins/terraform
+  zgenom ohmyzsh plugins/opentofu
   zgenom ohmyzsh plugins/tig
   zgenom ohmyzsh plugins/tmux
   zgenom ohmyzsh plugins/vi-mode

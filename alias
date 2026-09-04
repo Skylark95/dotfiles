@@ -14,12 +14,9 @@ alias q="~ && clear"
 [ -d ~/Desktop ]   && alias dt='cd ~/Desktop'
 [ -d ~/git ]       && alias pj='cd ~/git'
 
-# vim
-alias vi="vim"
-
 # Commands Shortcuts
 alias e="$EDITOR"
-alias vi="vim"
+alias vi="nvim"
 
 # pbcopy / pbpaste on linux
 if command -v xclip &> /dev/null; then
@@ -31,11 +28,11 @@ fi
 alias dotfiles="cd $DOTFILES"
 
 # Quick edit of dotfiles
-alias vimzshrc="vim $DOTFILES/zshrc"
-alias vimalias="vim $DOTFILES/alias"
-alias vimec="vim $DOTFILES/editorconfig"
-alias vimenv="vim $DOTFILES/env"
-alias vimfunctions="vim $DOTFILES/functions"
+alias vimzshrc="$EDITOR $DOTFILES/zshrc"
+alias vimalias="$EDITOR $DOTFILES/alias"
+alias vimec="$EDITOR $DOTFILES/editorconfig"
+alias vimenv="$EDITOR $DOTFILES/env"
+alias vimfunctions="$EDITOR $DOTFILES/functions"
 
 # Quick reload of zsh environment
 alias reload="source $HOME/.zshrc"
@@ -45,8 +42,8 @@ alias src="source $HOME/.zshrc"
 alias path='echo -e ${PATH//:/\\n}'
 
 # AWS
-alias vimawscreds="vim $HOME/.aws/credentials"
-alias vimawsconfig="vim $HOME/.aws/config"
+alias vimawscreds="$EDITOR $HOME/.aws/credentials"
+alias vimawsconfig="$EDITOR $HOME/.aws/config"
 
 # fzf
 alias fzfp="fzf --preview 'bat --color=always {}' --preview-window '~3'"
@@ -72,9 +69,9 @@ alias mvnvq='mvn help:evaluate -Dexpression=project.version -q -DforceStdout'
 # Python
 alias pip='pip3'
 
-# Terraform
-alias tfwd="terraform workspace delete"
-alias tfwl="terraform workspace list"
-alias tfwn="terraform workspace new"
-alias tfws="terraform workspace select"
-alias tfiu="terraform init -upgrade"
+# OpenTofu
+alias tfwd="tofu workspace delete"
+alias tfwl="tofu workspace list"
+alias tfwn="tofu workspace new"
+alias tfws="tofu workspace select"
+alias tfiu="tofu init -upgrade"

@@ -6,6 +6,10 @@
 - shell:
   - git submodule sync --recursive
   - git submodule update --init --recursive
+  - command: '[ "$(getent passwd "$USER" | cut -d: -f7)" = "$(command -v zsh)" ] || chsh -s "$(command -v zsh)"'
+    description: Setting zsh as the default shell
+    stdin: true
+    stderr: true
 
 - clean: ['~', '~/.config']
 
