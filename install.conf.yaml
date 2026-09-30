@@ -20,6 +20,8 @@
     ~/.functions:
     ~/.config/gitui:
     ~/.config/nvim:
+    ~/.config/nvim-lazyvim:
+      path: nvim-lazyvim
     ~/.editorconfig:
     ~/.gitconfig:
     ~/.spaceshiprc.zsh:
