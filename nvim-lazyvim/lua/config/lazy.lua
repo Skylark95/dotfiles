@@ -26,6 +26,7 @@ require("lazy").setup({
   },
   install = { colorscheme = { "dracula", "habamax" } },
   checker = { enabled = false }, -- update manually with :Lazy sync
+  rocks = { enabled = false }, -- no plugins need luarocks; silences the hererocks health errors
   performance = {
     rtp = {
       disabled_plugins = { "gzip", "tarPlugin", "tohtml", "tutor", "zipPlugin" },
