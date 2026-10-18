@@ -17,6 +17,7 @@ alias q="~ && clear"
 # Commands Shortcuts
 alias e="$EDITOR"
 alias vi="nvim"
+alias lv="NVIM_APPNAME=nvim-lazyvim nvim" # LazyVim trial config
 
 # pbcopy / pbpaste on linux
 if command -v xclip &> /dev/null; then
