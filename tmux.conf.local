@@ -465,6 +465,12 @@ tmux_conf_uninstall_plugins_on_reload=false
 #set -g @continuum-restore 'on'
 
 
+# -- 24-bit colour -------------------------------------------------------------
+
+# the terminal reports xterm-256color without COLORTERM, so tell tmux it supports
+# RGB (fixes the neovim :checkhealth true color warning)
+set -as terminal-features ',xterm-256color:RGB'
+
 # -- custom variables ----------------------------------------------------------
 
 # to define a custom #{foo} variable, define a POSIX shell function between the
