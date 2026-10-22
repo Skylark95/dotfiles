@@ -49,3 +49,14 @@ Commonly used aliases defined in `alias`:
 1.  Place the new config file in the root or an appropriate subdirectory.
 2.  Add a mapping to `install.conf.yaml`.
 3.  Run `./install` to create the symlink.
+
+### Tmux Theming
+
+*   Edit `tmux.conf.local` (oh-my-tmux overrides), never `~/.tmux.conf`. Reload with prefix + `r`.
+*   Window formats and the terminal title are in `tmux.conf.local` (`tmux_conf_theme_window_status*format`, `tmux_conf_theme_terminal_title`). Claude windows (`#{window_name}` = `claude`) show `#{pane_title}` with Claude's leading status glyph stripped via `#{s/^[^ ]+ //:pane_title}`. zsh windows show `#{b:pane_current_path}`.
+*   `status-interval` is 10, so titles and tabs lag by up to 10 seconds.
+*   In the Bash tool, `tmux` is a zsh plugin alias that silently misses the server. Use `/usr/bin/tmux`, and tell the user to reload tmux themselves.
+
+### Commits
+
+Conventional commit style with a scope, e.g. `feat(tmux): ...`, `style(tmux): ...`, `chore(nvim): ...`.
